@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyadharshini B - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .contact-info p, .summary p {
+            margin: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .projects img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        .footer a {
+            color: #666;
+        }
+
+        .footer a:hover {
+            color: #333;
+        }
+
+        
+        .projects .image-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .projects .image-container img {
+            width: 30%;
+            margin-bottom: 10px;
+        }
+
+        .projects .image-container img:nth-child(3n+2) {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+       
+        .about {
+            display: flex;
+            align-items: center;
+        }
+
+        .about .profile-img {
+            border-radius: 5px;
+            width: 250px; 
+            height: 350px; 
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .about p {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Priyadharshini B</h1>
+            <p>BCA Student, Christ (Deemed to be University), Bangalore</p>
+        </header>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: priyadharshinibalu@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/priya-dharshini-a3401429b/" target="_blank">linkedin.com/in/priyadharshini</a></p>
+            <p>Phone: 8431524426</p>
+        </section>
+        <section class="about">
+            <img src="img.jpg" alt="Priyadharshini" class="profile-img">
+            <p>A dedicated and motivated BCA student with a strong academic background and excellent problem-solving skills. Adept at collaborating with team members and eager to contribute to technology projects.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript (Intermediate)</li>
+                <li>Database, C++ (Intermediate)</li>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Communication</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="image-container">
+                <img src="1.png" alt="Project 1">
+                <img src="2.png" alt="Project 2">
+                <img src="3.png" alt="Project 3">
+            </div>
+            <p>The proposed web application is envisioned to be a comprehensive platform for space education, catering to students, space enthusiasts, and individuals intrigued by the mysteries of the cosmos. With a focus on interactivity and engagement, the platform aims to offer a dynamic learning environment through gamification elements, diverse media content, and collaborative features.</p>
+        </section>
+        <section class="resume">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="Resume.pdf" target="_blank"><b>here</b></a>.</p>
+        </section>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Priyadharshini B | Designed by Priyadharshini</p>
+    </div>
+</body>
+</html>
